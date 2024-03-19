@@ -518,7 +518,7 @@ a {
     bottom: -34.5%;
     right: -25%;
     user-select: none;
-    /* overflow-y: hidden; */
+    overflow-y: hidden;
 
 }
 .blob-style{
@@ -541,7 +541,28 @@ a {
     width: 90px;
     transition: all 0.5s;
 }
+.skills-logo:hover{
+    transform: scale(1.2);
+}
+.skill-heading{
 
+        font-size: 50px;
+        font-style: bold;
+        color: var(--bgOrange);
+        line-height: 50px;
+}
+
+.caps{
+    font-size: 90px;
+}
+.skill-subHeading{
+    margin-top: 1rem;
+    width: 85%;
+    text-align: justify;
+}
+.skill-subHeading p{
+ margin: 15px 0;
+}
 
 
 
